@@ -1,0 +1,139 @@
+/* Text Animation */
+.animate-text {
+    opacity: 0;
+    animation: fadeInUp 1s ease forwards;
+}
+
+.animate-text-delay {
+    opacity: 0;
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hover Effects */
+.nav-menu a {
+    position: relative;
+}
+
+.nav-menu a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background: var(--accent-color);
+    transition: width 0.3s ease;
+}
+
+.nav-menu a:hover::after {
+    width: 100%;
+}
+
+/* Portfolio Item Animation */
+.portfolio-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.portfolio-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Form Input Animation */
+input, textarea {
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 2px rgba(0, 255, 209, 0.2);
+    outline: none;
+}
+
+/* Mobile Menu Animation */
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+/* Scroll Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.scroll-animate {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+}
+
+/* Button Pulse Animation */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 255, 209, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(0, 255, 209, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 255, 209, 0);
+    }
+}
+
+.cta-button {
+    animation: pulse 2s infinite;
+}
+
+/* Logo Animation */
+@keyframes gradientFlow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.logo h1 {
+    background-size: 200% auto;
+    animation: gradientFlow 3s ease infinite;
+}
+
+/* Social Icons Hover Animation */
+.social-links a {
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: translateY(-5px);
+} 
