@@ -1,6 +1,6 @@
-# Insid Tatoo Website
+# Ink Sit Tattoo
 
-Um website moderno e responsivo para o estúdio de tatuagem Insid Tatoo.
+Um website moderno e responsivo para o estúdio de tatuagem Ink Sit Tattoo.
 
 ## Características
 
