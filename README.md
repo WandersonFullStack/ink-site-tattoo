@@ -1,6 +1,6 @@
-# Ink Sit Tattoo
+# Ink Site Tattoo
 
-Um website moderno e responsivo para o estúdio de tatuagem Ink Sit Tattoo.
+Um website moderno e responsivo para o estúdio de tatuagem Ink Site Tattoo.
 
 ## Características
 
@@ -15,7 +15,7 @@ Um website moderno e responsivo para o estúdio de tatuagem Ink Sit Tattoo.
 ## Estrutura do Projeto
 
 ```
-insid-tatoo/
+ink-site-tattoo/
 ├── index.html
 ├── css/
 │   ├── style.css
