@@ -169,6 +169,17 @@ section h2 {
     padding: 2rem 0;
 }
 
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /* Contact Form */
 .contact-container {
     max-width: 600px;
@@ -278,4 +289,13 @@ footer {
     .hero-content h1 {
         font-size: 2.5rem;
     }
+    
+    .about-content {
+        flex-direction: column;
+    }
+    
+    .about-text {
+        text-align: center;
+    }
+
 } 

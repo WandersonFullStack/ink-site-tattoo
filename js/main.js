@@ -32,20 +32,27 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Portfolio items data
 const portfolioItems = [
     {
-        image: 'images/tribal.webp',
+        image: 'images/foto1.jpg',
         title: 'Arte Tribal',
         description: 'Design tribal personalizado'
     },
     {
-        image: 'images/realista.jpg',
+        image: 'images/foto2.jpg',
         title: 'Realismo',
         description: 'Retrato realista em preto e cinza'
     },
     {
-        image: 'images/aquarela.jpg',
+        image: 'images/foto3.jpg',
         title: 'Aquarela',
         description: 'Técnica de aquarela moderna'
-    }
+    },
+    {
+        image: 'images/foto4.jpg',
+        title: 'Digital',
+        description: 'Técnica digital moderna'
+    },
+    
+
     // Add more portfolio items as needed
 ];
 
