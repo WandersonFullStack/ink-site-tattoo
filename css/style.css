@@ -290,8 +290,8 @@ footer {
         font-size: 2.5rem;
     }
     
-    .about-content {
-        flex-direction: column;
+    .about-image {
+        display: none;
     }
     
     .about-text {
